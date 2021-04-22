@@ -43,6 +43,7 @@ class SpotifyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Spotify',
       theme: ThemeData(
+        fontFamily: 'Gotham',
         primaryColor: AppTheme.black,
         scaffoldBackgroundColor: AppTheme.black,
         visualDensity: VisualDensity.adaptivePlatformDensity,

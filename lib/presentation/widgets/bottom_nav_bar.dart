@@ -20,34 +20,30 @@ class BottomNavBar extends StatelessWidget {
       child: SafeArea(
         bottom: true,
         child: Container(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: <Widget>[
-              GestureDetector(
-                child: Icon(
-                  selectedIndex == 0 ? Icons.home : Icons.home_outlined,
-                  color: selectedIndex == 0 ? Colors.white : AppTheme.darkGrey,
-                  size: 28,
+          child: IconTheme(
+            data: AppTheme.whiteMediumIcon.copyWith(
+              color: selectedIndex == 0 ? Colors.white : AppTheme.darkGrey,
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                GestureDetector(
+                  child: Icon(
+                      selectedIndex == 0 ? Icons.home : Icons.home_outlined),
+                  onTap: () => onItemTapped(0),
                 ),
-                onTap: () => onItemTapped(0),
-              ),
-              GestureDetector(
-                child: Icon(
-                  CupertinoIcons.search,
-                  color: selectedIndex == 1 ? Colors.white : AppTheme.darkGrey,
-                  size: 28,
+                GestureDetector(
+                  child: Icon(CupertinoIcons.search),
+                  onTap: () => onItemTapped(1),
                 ),
-                onTap: () => onItemTapped(1),
-              ),
-              GestureDetector(
-                child: Icon(
-                  selectedIndex == 2 ? Icons.library_books : Icons.library_books_outlined,
-                  color: selectedIndex == 2 ? Colors.white : AppTheme.darkGrey,
-                  size: 28,
+                GestureDetector(
+                  child: Icon(selectedIndex == 2
+                      ? Icons.library_books
+                      : Icons.library_books_outlined),
+                  onTap: () => onItemTapped(2),
                 ),
-                onTap: () => onItemTapped(2),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
