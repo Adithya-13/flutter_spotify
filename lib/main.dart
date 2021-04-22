@@ -4,6 +4,7 @@ import 'package:flutter_spotify/data/exceptions/api_exception.dart';
 import 'package:flutter_spotify/data/repositories/repositories.dart';
 import 'package:flutter_spotify/logic/blocs/blocs.dart';
 import 'package:flutter_spotify/presentation/router/page_router.dart';
+import 'package:flutter_spotify/presentation/utils/app_theme.dart';
 import 'package:logging/logging.dart';
 
 void main() {
@@ -42,7 +43,10 @@ class SpotifyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Spotify',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: AppTheme.black,
+        scaffoldBackgroundColor: AppTheme.black,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        colorScheme: ColorScheme.dark(primary: AppTheme.darkGrey),
       ),
       onGenerateRoute: _router.getRoute,
       navigatorObservers: [_router.routeObserver],
