@@ -7,4 +7,9 @@ abstract class RecentlyPlayedEvent extends Equatable {
   List<Object?> get props => [];
 }
 
-class RecentlyPlayedRequested extends RecentlyPlayedEvent {}
+class RecentlyPlayedRequested extends RecentlyPlayedEvent {
+  const RecentlyPlayedRequested();
+
+  @override
+  List<Object?> get props => [];
+}

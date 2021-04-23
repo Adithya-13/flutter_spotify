@@ -10,8 +10,10 @@ class PageRouter {
   Route<dynamic> getRoute(RouteSettings settings) {
     final args = settings.arguments;
     switch (settings.name) {
-      case PagePath.base:
-        return _buildRoute(settings, BasePage());
+      case PagePath.base: return _buildRoute(settings, BasePage());
+      case PagePath.home: return _buildRoute(settings, HomePage());
+      case PagePath.search: return _buildRoute(settings, SearchPage());
+      case PagePath.library: return _buildRoute(settings, LibraryPage());
       default:
         return _errorRoute();
     }

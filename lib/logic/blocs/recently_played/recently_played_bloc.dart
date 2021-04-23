@@ -6,15 +6,13 @@ import 'package:flutter_spotify/data/entities/entities.dart';
 import 'package:flutter_spotify/data/repositories/repositories.dart';
 
 part 'recently_played_event.dart';
-
 part 'recently_played_state.dart';
 
-class RecentlyPlayedBloc
-    extends Bloc<RecentlyPlayedEvent, RecentlyPlayedState> {
-  final RecentlyPlayedRepository recentlyPlayedRepository;
+class RecentlyPlayedBloc extends Bloc<RecentlyPlayedEvent, RecentlyPlayedState> {
+  final RecentlyPlayedRepository _recentlyPlayedRepository;
 
-  RecentlyPlayedBloc({required this.recentlyPlayedRepository})
-      : super(RecentlyPlayedInitial());
+  RecentlyPlayedBloc({required RecentlyPlayedRepository recentlyPlayedRepository})
+      : _recentlyPlayedRepository = recentlyPlayedRepository, super(RecentlyPlayedInitial());
 
   @override
   Stream<RecentlyPlayedState> mapEventToState(
@@ -25,11 +23,10 @@ class RecentlyPlayedBloc
     }
   }
 
-  Stream<RecentlyPlayedState> _mapRecentlyPlayedRequestedToState(
-      RecentlyPlayedRequested event) async* {
+  Stream<RecentlyPlayedState> _mapRecentlyPlayedRequestedToState(RecentlyPlayedRequested event) async* {
     yield RecentlyPlayedLoadInProgress();
     try {
-      final entity = await recentlyPlayedRepository.getRecentlyPlayedList();
+      RecentlyPlayedEntity entity = await _recentlyPlayedRepository.getRecentlyPlayedList();
       yield RecentlyPlayedSuccess(entity: entity);
     } catch (e) {
       yield RecentlyPlayedFailure(message: e.toString());

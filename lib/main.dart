@@ -8,6 +8,7 @@ import 'package:flutter_spotify/presentation/utils/app_theme.dart';
 import 'package:logging/logging.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = SpotifyBlocObserver();
   runApp(
     MultiRepositoryProvider(
@@ -59,8 +60,7 @@ class SpotifyApp extends StatelessWidget {
     Logger.root.onRecord.listen((record) {
       dynamic e = record.error;
       String m = e is APIException ? e.message : e.toString();
-      print(
-          '${record.loggerName}: ${record.level.name}: ${record.message} ${m != 'null' ? m : ''}');
+      print('${record.loggerName}: ${record.level.name}: ${record.message} ${m != 'null' ? m : ''}');
     });
     Logger.root.info("Logger initialized.");
   }

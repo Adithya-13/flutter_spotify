@@ -21,25 +21,29 @@ class BottomNavBar extends StatelessWidget {
         bottom: true,
         child: Container(
           child: IconTheme(
-            data: AppTheme.whiteMediumIcon.copyWith(
-              color: selectedIndex == 0 ? Colors.white : AppTheme.darkGrey,
-            ),
+            data: AppTheme.bigWhiteIcon.copyWith(),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 GestureDetector(
                   child: Icon(
-                      selectedIndex == 0 ? Icons.home : Icons.home_outlined),
+                    selectedIndex == 0 ? Icons.home : Icons.home_outlined,
+                    color: selectedIndex == 0 ? Colors.white : AppTheme.darkGrey,
+                  ),
                   onTap: () => onItemTapped(0),
                 ),
                 GestureDetector(
-                  child: Icon(CupertinoIcons.search),
+                  child: Icon(
+                    CupertinoIcons.search,
+                    color: selectedIndex == 1 ? Colors.white : AppTheme.darkGrey,
+                  ),
                   onTap: () => onItemTapped(1),
                 ),
                 GestureDetector(
-                  child: Icon(selectedIndex == 2
-                      ? Icons.library_books
-                      : Icons.library_books_outlined),
+                  child: Icon(
+                    selectedIndex == 2 ? Icons.library_books : Icons.library_books_outlined,
+                    color: selectedIndex == 2 ? Colors.white : AppTheme.darkGrey,
+                  ),
                   onTap: () => onItemTapped(2),
                 ),
               ],

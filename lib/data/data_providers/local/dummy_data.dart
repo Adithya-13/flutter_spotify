@@ -25,8 +25,18 @@ class DummyData {
         ),
         ArtistRecentlyPlayedItemEntity(
           avatarImage:
-              "https://lh3.googleusercontent.com/proxy/skzCQMt0MypvMu61C51sCCtozRbXLuSRjHB44dqGh-2zqLH_e-jqd2IJofZcLQGdjIbmq1AqwwX75_y9cH-lx9R-OEr2ERYJWI0m0Sil79n9V7356_lozVbWt6xGrcMeY1pX9F-lrBTHQbGugcQR",
+              "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
           name: "Billie Ellish",
+        ),
+        SongRecentlyPlayedItemEntity(
+          coverSongImage:
+          "https://1.bp.blogspot.com/-8fjS6fZHutg/XoHHr60I5BI/AAAAAAAAA5Y/Oi9eO4ctyZsDL6Clidd0TsFFNXEtUS9KACLcBGAsYHQ/s200/PCCA-4822.jpg",
+          name: "Pretender",
+        ),
+        SongRecentlyPlayedItemEntity(
+          coverSongImage:
+          "https://upload.wikimedia.org/wikipedia/en/3/3e/Powfu_-_Death_Bed.png",
+          name: "death bed (coffee for your head)",
         ),
         PlaylistRecentlyPlayedItemEntity(
           imageSongs: [
@@ -57,16 +67,6 @@ class DummyData {
           ],
           name: "Korean",
           ownerPlaylist: "xfaahrm",
-        ),
-        SongRecentlyPlayedItemEntity(
-          coverSongImage:
-              "https://1.bp.blogspot.com/-8fjS6fZHutg/XoHHr60I5BI/AAAAAAAAA5Y/Oi9eO4ctyZsDL6Clidd0TsFFNXEtUS9KACLcBGAsYHQ/s200/PCCA-4822.jpg",
-          name: "Pretender",
-        ),
-        SongRecentlyPlayedItemEntity(
-          coverSongImage:
-              "https://upload.wikimedia.org/wikipedia/en/3/3e/Powfu_-_Death_Bed.png",
-          name: "death bed (coffee for your head)",
         ),
         SongRecentlyPlayedItemEntity(
           coverSongImage: "https://i1.sndcdn.com/artworks-UZsQHqaNnKkDy891-4MU59w-t500x500.jpg",
