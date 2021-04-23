@@ -13,7 +13,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  bool isPlaying = false;
 
   @override
   Widget build(BuildContext context) {

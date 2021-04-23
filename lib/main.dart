@@ -16,6 +16,9 @@ void main() {
         RepositoryProvider<RecentlyPlayedRepository>(
           create: (context) => RecentlyPlayedRepository(),
         ),
+        RepositoryProvider<GenreRepository>(
+          create: (context) => GenreRepository(),
+        ),
       ],
       child: MultiBlocProvider(
         providers: [
@@ -24,6 +27,11 @@ void main() {
               recentlyPlayedRepository:
                   context.read<RecentlyPlayedRepository>(),
             )..add(RecentlyPlayedRequested()),
+          ),
+          BlocProvider<GenreBloc>(
+            create: (context) => GenreBloc(
+              genreRepository: context.read<GenreRepository>(),
+            )..add(AllGenreRequested())..add(UserGenreRequested()),
           ),
         ],
         child: SpotifyApp(),
@@ -60,7 +68,8 @@ class SpotifyApp extends StatelessWidget {
     Logger.root.onRecord.listen((record) {
       dynamic e = record.error;
       String m = e is APIException ? e.message : e.toString();
-      print('${record.loggerName}: ${record.level.name}: ${record.message} ${m != 'null' ? m : ''}');
+      print(
+          '${record.loggerName}: ${record.level.name}: ${record.message} ${m != 'null' ? m : ''}');
     });
     Logger.root.info("Logger initialized.");
   }

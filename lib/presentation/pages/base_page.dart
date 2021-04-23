@@ -41,63 +41,68 @@ class _BasePageState extends State<BasePage> {
     );
   }
 
-  Container _currentPlayingSong() {
-    return Container(
-      height: 64,
-      color: Colors.brown,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Container(
-            height: 0.5,
-            color: Colors.white,
-          ),
-          Expanded(
-            child: Row(
-              children: [
-                CachedNetworkImage(
-                  imageUrl: dummyImage,
-                  fit: BoxFit.cover,
-                ),
-                Expanded(
-                  child: Container(
-                    padding: EdgeInsets.all(8),
-                    alignment: Alignment.centerLeft,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "To the Bone - Pamungkas",
-                          style: AppTheme.boldSmallWhiteText,
-                        ),
-                        SizedBox(height: 4),
-                        Text(
-                          "Pamungkas",
-                          style: AppTheme.lightSmallWhiteText,
-                        ),
-                      ],
+  Widget _currentPlayingSong() {
+    return FutureBuilder<Color>(
+      future: getImagePalette(NetworkImage(dummyImage)),
+      builder: (context, snapshot) {
+        return Container(
+          height: 64,
+          color: snapshot.connectionState == ConnectionState.waiting ? AppTheme.nero : snapshot.data,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Container(
+                height: 0.5,
+                color: Colors.white,
+              ),
+              Expanded(
+                child: Row(
+                  children: [
+                    CachedNetworkImage(
+                      imageUrl: dummyImage,
+                      fit: BoxFit.cover,
                     ),
-                  ),
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.all(8),
+                        alignment: Alignment.centerLeft,
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "To the Bone - Pamungkas",
+                              style: AppTheme.boldSmallWhiteText,
+                            ),
+                            SizedBox(height: 4),
+                            Text(
+                              "Pamungkas",
+                              style: AppTheme.lightSmallWhiteText,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    IconTheme(
+                      data: AppTheme.normalWhiteIcon,
+                      child: Row(
+                        children: [
+                          Icon(Icons.laptop),
+                          SizedBox(width: 16),
+                          Icon(Icons.favorite_border_rounded),
+                          SizedBox(width: 16),
+                          Icon(Icons.pause),
+                          SizedBox(width: 16),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
-                IconTheme(
-                  data: AppTheme.normalWhiteIcon,
-                  child: Row(
-                    children: [
-                      Icon(Icons.laptop),
-                      SizedBox(width: 16),
-                      Icon(Icons.favorite_border_rounded),
-                      SizedBox(width: 16),
-                      Icon(Icons.pause),
-                      SizedBox(width: 16),
-                    ],
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
-        ],
-      ),
+        );
+      }
     );
   }
 }

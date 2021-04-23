@@ -1,4 +1,5 @@
 export 'recently_played/recently_played_bloc.dart';
+export 'genre/genre_bloc.dart';
 
 import 'package:bloc/bloc.dart';
 
