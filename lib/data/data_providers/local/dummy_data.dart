@@ -121,7 +121,7 @@ class DummyData {
         ),
         GenreItemEntity(
           name: "Radio",
-          coverAlbum: "http://pm1.narvii.com/6904/314751f0009bdb44b13b82a0d9241237327a7a59r1-800-890v2_uhq.jpg",
+          coverAlbum: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pop-art-album-cover-template-design-f239d8882deebb25c673a51c910bcb73_screen.jpg?ts=1590273355",
         ),
         GenreItemEntity(
           name: "New Releases",
@@ -129,7 +129,7 @@ class DummyData {
         ),
         GenreItemEntity(
           name: "Discover",
-          coverAlbum: "http://1.bp.blogspot.com/-D4vah5yq-mk/UxRuQXhuZqI/AAAAAAAAAaw/W0AJhMfL_vs/s1600/OMAM.jpg",
+          coverAlbum: "https://i.pinimg.com/originals/3a/f0/e5/3af0e55ea66ea69e35145fb108b4a636.jpg",
         ),
         GenreItemEntity(
           name: "Ramadan",
@@ -153,7 +153,7 @@ class DummyData {
         ),
         GenreItemEntity(
           name: "Rock",
-          coverAlbum: "http://3.bp.blogspot.com/-i3ITx-wgF8I/ULH7FbDCZDI/AAAAAAAAAp0/iYvL5Cu8fDQ/s1600/day-and-age.jpg",
+          coverAlbum: "https://cdn.dribbble.com/users/31348/screenshots/5383318/aid_vinyl_19_4x.jpg",
         ),
         GenreItemEntity(
           name: "Mood",
@@ -177,7 +177,7 @@ class DummyData {
         ),
         GenreItemEntity(
           name: "Sleep",
-          coverAlbum: "http://4.bp.blogspot.com/-QBBZmzAz9rk/Vk2edCB-FVI/AAAAAAAAA5Q/jhq_bVD5o_s/s1600/4732757_markronson-recordcollection.jpg",
+          coverAlbum: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/cool-album-cover-image-design-template-62fca565fdcbb25ced8e900c54d61835_screen.jpg?ts=1561530580",
         ),
         GenreItemEntity(
           name: "R&B",
@@ -197,7 +197,7 @@ class DummyData {
         ),
         GenreItemEntity(
           name: "League of Legends",
-          coverAlbum: "http://3.bp.blogspot.com/_xydp0AvJSC4/S8xE8SyrBjI/AAAAAAAAAGg/DamvYjBud-I/s1600/Red-Hot-Chili-Peppers-Red-Hot-Chili-Pep-469559.jpg",
+          coverAlbum: "https://images.squarespace-cdn.com/content/v1/53b6eb62e4b06e0feb2d8e86/1607362705516-R5Q22H4FVIVPNMW8OWD7/ke17ZwdGBToddI8pDm48kOM0wi0zWgY49OChaGdbQod7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Udq808UFTE3RUCYZpscC1JaI0xjbDb9OOCsv-L8MD1ND_7k-9-XsFQ9lvpTgv0wwCA/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web.jpg?format=original",
         ),
         GenreItemEntity(
           name: "Punk",

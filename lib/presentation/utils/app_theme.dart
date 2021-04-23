@@ -48,6 +48,12 @@ class AppTheme {
     fontSize: 16,
   );
 
+  static TextStyle boldNormalWhiteText = TextStyle(
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+    fontSize: 16,
+  );
+
   ///////////////////////// ICON /////////////////////////
 
   static IconThemeData bigWhiteIcon = IconThemeData(

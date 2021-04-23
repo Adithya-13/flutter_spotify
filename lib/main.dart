@@ -28,10 +28,15 @@ void main() {
                   context.read<RecentlyPlayedRepository>(),
             )..add(RecentlyPlayedRequested()),
           ),
-          BlocProvider<GenreBloc>(
-            create: (context) => GenreBloc(
+          BlocProvider<AllGenreBloc>(
+            create: (context) => AllGenreBloc(
               genreRepository: context.read<GenreRepository>(),
-            )..add(AllGenreRequested())..add(UserGenreRequested()),
+            )..add(AllGenreRequested()),
+          ),
+          BlocProvider<UserGenreBloc>(
+            create: (context) => UserGenreBloc(
+              genreRepository: context.read<GenreRepository>(),
+            )..add(UserGenreRequested()),
           ),
         ],
         child: SpotifyApp(),
@@ -51,9 +56,11 @@ class SpotifyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Spotify',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Gotham',
         primaryColor: AppTheme.black,
+        accentColor: AppTheme.black,
         scaffoldBackgroundColor: AppTheme.black,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         colorScheme: ColorScheme.dark(primary: AppTheme.darkGrey),

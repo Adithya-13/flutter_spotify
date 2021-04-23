@@ -45,6 +45,7 @@ class _BasePageState extends State<BasePage> {
     return FutureBuilder<Color>(
       future: getImagePalette(NetworkImage(dummyImage)),
       builder: (context, snapshot) {
+        print(snapshot.data);
         return Container(
           height: 64,
           color: snapshot.connectionState == ConnectionState.waiting ? AppTheme.nero : snapshot.data,
