@@ -5,13 +5,143 @@ class DummyData {
       RecentlyPlayedEntity(recentlyPlayedList: [
         PlaylistRecentlyPlayedItemEntity(
           imageSongs: [
+            "https://i.pinimg.com/originals/07/14/35/071435f19718a2d3c0a368f26c1fad6c.jpg",
             "https://upload.wikimedia.org/wikipedia/id/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
+            "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+            "https://images-na.ssl-images-amazon.com/images/I/61ArgJHOzOL._AC_SL1001_.jpg",
+          ],
+          name: "U",
+          ownerPlaylist: "Aditputrafirmansyah",
+        ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://i.pinimg.com/originals/07/14/35/071435f19718a2d3c0a368f26c1fad6c.jpg",
+            "https://upload.wikimedia.org/wikipedia/id/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
+            "https://images-na.ssl-images-amazon.com/images/I/61ArgJHOzOL._AC_SL1001_.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+          ],
+          name: "SadBoy",
+          ownerPlaylist: "Aditputrafirmansyah",
+        ),
+        SongRecentlyPlayedItemEntity(
+          coverSongImage:
+              "https://1.bp.blogspot.com/-8fjS6fZHutg/XoHHr60I5BI/AAAAAAAAA5Y/Oi9eO4ctyZsDL6Clidd0TsFFNXEtUS9KACLcBGAsYHQ/s200/PCCA-4822.jpg",
+          name: "Pretender",
+        ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://upload.wikimedia.org/wikipedia/id/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
+            "https://images-na.ssl-images-amazon.com/images/I/61ArgJHOzOL._AC_SL1001_.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+            "https://i.pinimg.com/originals/07/14/35/071435f19718a2d3c0a368f26c1fad6c.jpg",
+          ],
+          name: "West",
+          ownerPlaylist: "xfaahrm",
+        ),
+        SongRecentlyPlayedItemEntity(
+          coverSongImage:
+              "https://upload.wikimedia.org/wikipedia/en/3/3e/Powfu_-_Death_Bed.png",
+          name: "death bed (coffee for your head)",
+        ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://www.indieisnotagenre.com/wp-content/uploads/Sam-Fender-Hypersonic-Missiles-album-cover-artwork-650x650.jpg",
+            "https://i.pinimg.com/originals/4e/b4/f8/4eb4f8a7e04b57e74914fc46e013ac40.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/c/c2/Radwimps_Your_Name_Album_Cover.jpg",
+            "https://images-platform.99static.com/Ht3JYhmC_rXqTaKTmjlUqB3J7iQ=/3x3:2040x2040/500x500/top/smart/99designs-contests-attachments/89/89297/attachment_89297490",
+          ],
+          name: "Yow",
+          ownerPlaylist: "xfaahrm",
+        ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/134145054/original/24474b46a94d785e903527d74cf29d9bb3481c90/create-cd-album-cover-for-music-indie.png",
+            "https://images.squarespace-cdn.com/content/v1/53b6eb62e4b06e0feb2d8e86/1607362705516-R5Q22H4FVIVPNMW8OWD7/ke17ZwdGBToddI8pDm48kOM0wi0zWgY49OChaGdbQod7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Udq808UFTE3RUCYZpscC1JaI0xjbDb9OOCsv-L8MD1ND_7k-9-XsFQ9lvpTgv0wwCA/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web.jpg?format=original",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg",
+            "https://www.nme.com/wp-content/uploads/2016/10/08.pixies_doolittle__161013-5.jpg",
+          ],
+          name: "Korean",
+          ownerPlaylist: "xfaahrm",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://images.squarespace-cdn.com/content/v1/53b6eb62e4b06e0feb2d8e86/1607362705516-R5Q22H4FVIVPNMW8OWD7/ke17ZwdGBToddI8pDm48kOM0wi0zWgY49OChaGdbQod7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Udq808UFTE3RUCYZpscC1JaI0xjbDb9OOCsv-L8MD1ND_7k-9-XsFQ9lvpTgv0wwCA/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web.jpg?format=original",
+            "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/134145054/original/24474b46a94d785e903527d74cf29d9bb3481c90/create-cd-album-cover-for-music-indie.png",
+            "https://www.nme.com/wp-content/uploads/2016/10/08.pixies_doolittle__161013-5.jpg",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg",
+          ],
+          name: "Me",
+          ownerPlaylist: "mfikrira",
+        ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
+        SongRecentlyPlayedItemEntity(
+          coverSongImage:
+              "https://i1.sndcdn.com/artworks-UZsQHqaNnKkDy891-4MU59w-t500x500.jpg",
+          name: "eyes blue x heather - slowed",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Aleixos-by-Vinicius-Gut.jpg",
+            "https://www.nme.com/wp-content/uploads/2016/10/08.pixies_doolittle__161013-5.jpg",
+            "https://images.squarespace-cdn.com/content/v1/53b6eb62e4b06e0feb2d8e86/1607362705516-R5Q22H4FVIVPNMW8OWD7/ke17ZwdGBToddI8pDm48kOM0wi0zWgY49OChaGdbQod7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Udq808UFTE3RUCYZpscC1JaI0xjbDb9OOCsv-L8MD1ND_7k-9-XsFQ9lvpTgv0wwCA/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web.jpg?format=original",
+          ],
+          name: "Old",
+          ownerPlaylist: "xfaahrm",
+        ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://www.indieisnotagenre.com/wp-content/uploads/Sam-Fender-Hypersonic-Missiles-album-cover-artwork-650x650.jpg",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/c/c2/Radwimps_Your_Name_Album_Cover.jpg",
+            "https://www.nme.com/wp-content/uploads/2016/10/08.pixies_doolittle__161013-5.jpg",
+          ],
+          name: "You",
+          ownerPlaylist: "aliends",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
             "https://i.pinimg.com/originals/07/14/35/071435f19718a2d3c0a368f26c1fad6c.jpg",
             "https://images-na.ssl-images-amazon.com/images/I/61ArgJHOzOL._AC_SL1001_.jpg",
+            "https://upload.wikimedia.org/wikipedia/id/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
             "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
           ],
           name: "U",
           ownerPlaylist: "Aditputrafirmansyah",
+        ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
         ),
         PlaylistRecentlyPlayedItemEntity(
           imageSongs: [
@@ -23,20 +153,10 @@ class DummyData {
           name: "SadBoy",
           ownerPlaylist: "Aditputrafirmansyah",
         ),
-        ArtistRecentlyPlayedItemEntity(
-          avatarImage:
-              "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
-          name: "Billie Ellish",
-        ),
         SongRecentlyPlayedItemEntity(
           coverSongImage:
-              "https://1.bp.blogspot.com/-8fjS6fZHutg/XoHHr60I5BI/AAAAAAAAA5Y/Oi9eO4ctyZsDL6Clidd0TsFFNXEtUS9KACLcBGAsYHQ/s200/PCCA-4822.jpg",
+          "https://1.bp.blogspot.com/-8fjS6fZHutg/XoHHr60I5BI/AAAAAAAAA5Y/Oi9eO4ctyZsDL6Clidd0TsFFNXEtUS9KACLcBGAsYHQ/s200/PCCA-4822.jpg",
           name: "Pretender",
-        ),
-        SongRecentlyPlayedItemEntity(
-          coverSongImage:
-              "https://upload.wikimedia.org/wikipedia/en/3/3e/Powfu_-_Death_Bed.png",
-          name: "death bed (coffee for your head)",
         ),
         PlaylistRecentlyPlayedItemEntity(
           imageSongs: [
@@ -48,30 +168,80 @@ class DummyData {
           name: "West",
           ownerPlaylist: "xfaahrm",
         ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
+        SongRecentlyPlayedItemEntity(
+          coverSongImage:
+          "https://upload.wikimedia.org/wikipedia/en/3/3e/Powfu_-_Death_Bed.png",
+          name: "death bed (coffee for your head)",
+        ),
         PlaylistRecentlyPlayedItemEntity(
           imageSongs: [
-            "https://upload.wikimedia.org/wikipedia/id/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
-            "https://i.pinimg.com/originals/07/14/35/071435f19718a2d3c0a368f26c1fad6c.jpg",
-            "https://images-na.ssl-images-amazon.com/images/I/61ArgJHOzOL._AC_SL1001_.jpg",
-            "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+            "https://www.indieisnotagenre.com/wp-content/uploads/Sam-Fender-Hypersonic-Missiles-album-cover-artwork-650x650.jpg",
+            "https://i.pinimg.com/originals/4e/b4/f8/4eb4f8a7e04b57e74914fc46e013ac40.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/c/c2/Radwimps_Your_Name_Album_Cover.jpg",
+            "https://images-platform.99static.com/Ht3JYhmC_rXqTaKTmjlUqB3J7iQ=/3x3:2040x2040/500x500/top/smart/99designs-contests-attachments/89/89297/attachment_89297490",
           ],
           name: "Yow",
           ownerPlaylist: "xfaahrm",
         ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
         PlaylistRecentlyPlayedItemEntity(
           imageSongs: [
-            "https://upload.wikimedia.org/wikipedia/id/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
-            "https://i.pinimg.com/originals/07/14/35/071435f19718a2d3c0a368f26c1fad6c.jpg",
-            "https://images-na.ssl-images-amazon.com/images/I/61ArgJHOzOL._AC_SL1001_.jpg",
-            "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+            "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/134145054/original/24474b46a94d785e903527d74cf29d9bb3481c90/create-cd-album-cover-for-music-indie.png",
+            "https://images.squarespace-cdn.com/content/v1/53b6eb62e4b06e0feb2d8e86/1607362705516-R5Q22H4FVIVPNMW8OWD7/ke17ZwdGBToddI8pDm48kOM0wi0zWgY49OChaGdbQod7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Udq808UFTE3RUCYZpscC1JaI0xjbDb9OOCsv-L8MD1ND_7k-9-XsFQ9lvpTgv0wwCA/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web.jpg?format=original",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg",
+            "https://www.nme.com/wp-content/uploads/2016/10/08.pixies_doolittle__161013-5.jpg",
           ],
           name: "Korean",
           ownerPlaylist: "xfaahrm",
         ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://images.squarespace-cdn.com/content/v1/53b6eb62e4b06e0feb2d8e86/1607362705516-R5Q22H4FVIVPNMW8OWD7/ke17ZwdGBToddI8pDm48kOM0wi0zWgY49OChaGdbQod7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Udq808UFTE3RUCYZpscC1JaI0xjbDb9OOCsv-L8MD1ND_7k-9-XsFQ9lvpTgv0wwCA/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web.jpg?format=original",
+            "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/134145054/original/24474b46a94d785e903527d74cf29d9bb3481c90/create-cd-album-cover-for-music-indie.png",
+            "https://www.nme.com/wp-content/uploads/2016/10/08.pixies_doolittle__161013-5.jpg",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg",
+          ],
+          name: "Me",
+          ownerPlaylist: "mfikrira",
+        ),
         SongRecentlyPlayedItemEntity(
           coverSongImage:
-              "https://i1.sndcdn.com/artworks-UZsQHqaNnKkDy891-4MU59w-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-UZsQHqaNnKkDy891-4MU59w-t500x500.jpg",
           name: "eyes blue x heather - slowed",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Aleixos-by-Vinicius-Gut.jpg",
+            "https://www.nme.com/wp-content/uploads/2016/10/08.pixies_doolittle__161013-5.jpg",
+            "https://images.squarespace-cdn.com/content/v1/53b6eb62e4b06e0feb2d8e86/1607362705516-R5Q22H4FVIVPNMW8OWD7/ke17ZwdGBToddI8pDm48kOM0wi0zWgY49OChaGdbQod7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Udq808UFTE3RUCYZpscC1JaI0xjbDb9OOCsv-L8MD1ND_7k-9-XsFQ9lvpTgv0wwCA/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web.jpg?format=original",
+          ],
+          name: "Old",
+          ownerPlaylist: "xfaahrm",
+        ),
+        ArtistRecentlyPlayedItemEntity(
+          avatarImage:
+          "https://matamatamusik.com/wp-content/uploads/2020/06/Billie-Eilish-nyengir.jpg",
+          name: "Billie Ellish",
+        ),
+        PlaylistRecentlyPlayedItemEntity(
+          imageSongs: [
+            "https://www.indieisnotagenre.com/wp-content/uploads/Sam-Fender-Hypersonic-Missiles-album-cover-artwork-650x650.jpg",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/c/c2/Radwimps_Your_Name_Album_Cover.jpg",
+            "https://www.nme.com/wp-content/uploads/2016/10/08.pixies_doolittle__161013-5.jpg",
+          ],
+          name: "You",
+          ownerPlaylist: "aliends",
         ),
       ]);
 
@@ -94,14 +264,14 @@ class DummyData {
         GenreItemEntity(
           name: "Indie",
           coverAlbum:
-              "https://i.pinimg.com/originals/18/1a/38/181a38b43dc62c9d091f657166a956e9.jpg",
+              "https://www.wallpapertip.com/wmimgs/180-1806545_frank-ocean-album-art.jpg",
         ),
       ]);
 
   static AllGenreEntity getAllGenreList() => AllGenreEntity(allGenreList: [
         GenreItemEntity(
           name: "Podcasts",
-          coverAlbum: "https://i.pinimg.com/originals/18/1a/38/181a38b43dc62c9d091f657166a956e9.jpg",
+          coverAlbum: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/dj-album-cover-art-template-design-b12d3187741eae3c70fa59cefd15605b_screen.jpg?ts=1594622282",
         ),
         GenreItemEntity(
           name: "Made for you",
@@ -225,7 +395,7 @@ class DummyData {
         ),
         GenreItemEntity(
           name: "Alternative",
-          coverAlbum: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-MtGZ_yjYIrB3M59v6IkPQ-bSvpMru0uegw&usqp=CAU",
+          coverAlbum: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_68585523.jpg?auto=format&q=60&fit=max&w=930",
         ),
         GenreItemEntity(
           name: "Classical",

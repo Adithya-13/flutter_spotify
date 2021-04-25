@@ -66,4 +66,9 @@ class AppTheme {
     size: 24,
   );
 
+  static IconThemeData smallWhiteIcon = IconThemeData(
+    color: Colors.white,
+    size: 20,
+  );
+
 }

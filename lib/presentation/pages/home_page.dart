@@ -72,6 +72,20 @@ class _HomePageState extends State<HomePage> {
                   style: AppTheme.boldBigWhiteText,
                 ),
               );
+            } else if (state is RecentlyPlayedFailure) {
+              return Center(
+                child: Text(
+                  "Error...",
+                  style: AppTheme.boldBigWhiteText,
+                ),
+              );
+            } else if (state is RecentlyPlayedInitial) {
+              return Center(
+                child: Text(
+                  "Loading...",
+                  style: AppTheme.boldBigWhiteText,
+                ),
+              );
             } else if (state is RecentlyPlayedSuccess) {
               return GridView.builder(
                 physics: NeverScrollableScrollPhysics(),
@@ -175,20 +189,6 @@ class _HomePageState extends State<HomePage> {
                     return Container();
                   }
                 },
-              );
-            } else if (state is RecentlyPlayedFailure) {
-              return Center(
-                child: Text(
-                  "Error...",
-                  style: AppTheme.boldBigWhiteText,
-                ),
-              );
-            } else if (state is RecentlyPlayedInitial) {
-              return Center(
-                child: Text(
-                  "Loading...",
-                  style: AppTheme.boldBigWhiteText,
-                ),
               );
             } else {
               print("other " + state.toString());
